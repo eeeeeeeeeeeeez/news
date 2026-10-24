@@ -1,0 +1,10 @@
+{
+  "crons": [
+    { "path": "/api/cron/generate?category=taiwan", "schedule": "0 22 * * *" },
+    { "path": "/api/cron/generate?category=us", "schedule": "5 22 * * *" },
+    { "path": "/api/cron/generate?category=taiwan", "schedule": "15 22 * * *" },
+    { "path": "/api/cron/generate?category=us", "schedule": "20 22 * * *" },
+    { "path": "/api/cron/generate?category=taiwan", "schedule": "35 22 * * *" },
+    { "path": "/api/cron/generate?category=us", "schedule": "40 22 * * *" }
+  ]
+}
